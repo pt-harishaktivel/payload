@@ -1,6 +1,7 @@
 import { buildConfig } from '../buildConfig';
 import { PostsCollection, postsSlug } from './collections/Posts';
 import { MenuGlobal } from './globals/Menu';
+import Overview from './globals/Overview';
 import { devUser } from '../credentials';
 
 export default buildConfig({
@@ -11,6 +12,7 @@ export default buildConfig({
   ],
   globals: [
     MenuGlobal,
+    Overview,
     // ...add more globals here
   ],
 
